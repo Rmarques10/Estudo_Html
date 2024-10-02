@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      label {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" target="_blank" autocomplete="off">
+      <p>O meu formulário</p>
+      <p>
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome"
+        />
+      </p>
+      <p>
+        <label for="dev">Sou um DEV:</label>
+        <input type="checkbox" id="dev" name="dev" value="sim" checked />
+      </p>
+      <p>
+        <p>GÊNERO:</p>
+        <label for="feminino">Feminino:</label>
+        <input type="radio" id="feminino" name="genero" value="feminino" />
+        <p>
+          <label for="masculino">Masculino:</label>
+          <input type="radio" id="masculino" name="genero" value="masculino" />
+        </p>
+        <p>
+          <label for="outros">Outros:</label>
+          <input type="radio" id="outros" name="genero" value="outros" />
+        </p>
+      </p>
+      <p>
+        <label for="data">Data:</label>
+        <input
+          type="date"
+          id="data"
+          name="data"
+        />
+      </p>
+      <p>
+        <label for="datetime">datetime:</label>
+        <input
+          type="datetime-local"
+          id="datetime"
+          name="datetime"
+        />
+      </p>
+      <p>
+        <label for="time">time:</label>
+        <input
+          type="time"
+          id="time"
+          name="time"
+        />
+      </p>
+      <p>
+        <label for="cor">cor:</label>
+        <input
+          type="color"
+          id="cor"
+          name="cor"
+        />
+      </p>
+      <p>
+        <label for="email">email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="ex:exemplo@exemplo.com"
+        />
+      </p>
+      <p>
+        <label for="file">Sua foto:</label>
+        <input
+          type="file"
+          id="file"
+          name="file"
+          accept="image/*"
+          multiple
+        />
+      </p>
+      <p>
+        <label for="number">number:</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+        />
+      </p>
+      <p>
+        <label for="password">password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Digite sua senha"
+        />
+      </p>
+      <p>
+        <label for="range">range:</label>
+        <input
+          type="range"
+          id="range"
+          name="range"
+          list="datalist"
+        />
+        <datalist id="datalist">
+          <option value="0" label="0%"></option>
+          <option value="1" label="0%"></option>
+          <option value="2" ></option>
+          <option value="3" ></option>
+          <option value="4" ></option>
+          <option value="5" label="50%"></option>
+          <option value="6" ></option>
+          <option value="7" ></option>
+          <option value="8" ></option>
+          <option value="9" ></option>
+          <option value="10" label="100%"></option>
+        </datalist>
+      </p>
+
+      <p>
+        <label for="url">url:</label>
+        <input
+          type="url"
+          id="url"
+          name="url"
+          placeholder="Url"
+        />
+      </p>
+      <p>
+        <label for="search">search:</label>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="search"
+        />
+      </p>
+      <p>
+      <label for="select">Selecione as opções</label>
+      <select name="select" id="select">
+        <option value="valor1">valor 1</option>
+        <option value="valor2">valor 2</option>
+        <option value="valor3">valor 3</option>
+      </select>
+      </p>
+      <p>
+        <label for="textarea">textarea:</label>
+        <textarea name="textarea" id="textarea"></textarea>
+      </p>
+      <p>
+        <button type="Reset">Reset</button>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>
